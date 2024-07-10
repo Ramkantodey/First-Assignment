@@ -138,6 +138,8 @@ margin-bottom: 32px;
 .img-section{
 
 }
+
+/* learn-button */
 .main-section-learn{
     text-decoration: none;
         color: rgba(13, 19, 33, 0.7);
@@ -169,10 +171,10 @@ margin-top: 16px;
 margin-bottom: 30px;
 
 }
-
+/* inspiration-section */
 .youtube-video iframe{
     box-sizing: border-box;
-border: 30px solid rgba(13, 19, 33, 0.2);
+border: 30px solid white;
 border-radius: 16px;
 
 border-radius: 16px;
@@ -180,5 +182,62 @@ border-radius: 16px;
     width: 1200px;
     height: 550px;
 }
+
+.Target-section{
+    margin-top: 140px;
+}
+
+.target{
+    display: flex;
+    text-align: left;
+padding: 0px;
+}
+
+
+.card{
+    width: 284px;
+    height: 220px;
+    padding: 40px 40px 40px 40px;
+    margin-left: 24px;
+}
+.card h1{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin-bottom: 24px;
+}
+.card p {
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.card a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.html{
+    background-color: #FFF6F4;
+}
+.css{
+    background-color: #F2F6FE;
+}
+.js{
+    background-color: #FFFDF2;
+}
+.card img{
+    margin-bottom: 24px;
+}
+
+
 
 
