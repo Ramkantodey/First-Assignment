@@ -124,14 +124,13 @@ width: 850px;
 height: 240px;
 padding: 48px;
 justify-content: center;
-border: 5px solid green;
 margin: 0 auto;
+margin-bottom: 32px;
 
 
 
 }
 .text-section{
-    border: 1px red solid;
     width: 720px;
     height: 72px;
     margin-right: 98px;
@@ -141,11 +140,15 @@ margin: 0 auto;
 }
 .main-section-learn{
     text-decoration: none;
-    color: rgb(13, 19, 33);
+        color: rgba(13, 19, 33, 0.7);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: left;
+        padding: 12px 20px 12px 20px;
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
 
-font-size: 20px;
-font-weight: 600;
-text-align: center;
 }
 .title-section{
     width: 500px;
@@ -162,7 +165,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 opacity: 0.7;
-
+margin-top: 16px;
+margin-bottom: 30px;
 
 }
 
