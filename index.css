@@ -40,7 +40,7 @@ font-weight: 800;
 
 /* header er hero section */
 .hero-section{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url("./assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -53,7 +53,6 @@ font-weight: 800;
 
 #title{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 39px;
 font-weight: 800;
 line-height: 68px;
@@ -310,7 +309,7 @@ text-align: left;
 
 .footer{
     margin-top: 41px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url("./assets/handshake.jpg");
     background-position: 100%;
     justify-content: center;
     background-size: cover;
